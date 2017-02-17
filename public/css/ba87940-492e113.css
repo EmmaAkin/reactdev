@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Yantramanav:400,500,700);
+
+body {
+    margin: 0;
+    font-family: arial;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Yantramanav', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #222;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+header.active {
+    background-color: #222;
+    box-shadow: 0 4px 3px -5px #000;
+}
+.mainBody {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+}
+/* Left Menu */
+.logo {
+    float: left;
+    padding: 16px 30px 8px 0;
+}
+.logo img {
+    width: 115px;
+}
+.mainMenu {
+    float: left;
+}
+.mainMenu ul{
+    margin: 0;
+    padding: 0;
+}
+.mainMenu ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.mainMenu > ul > li > a {
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+/* END */
+
+/* Right Menu */
+.loginMenu {
+    float: right;
+    color: #fff;
+}
+.headerRegister {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    float: right;
+    margin: 13px 0 13px 10px;
+    line-height: 30px;
+    padding: 0 25px;
+    cursor: pointer;
+}
+.headerRegister a {
+    color: #fff;
+    text-decoration: none;
+}
+.headerLogin {
+    border-radius: 5px;
+    float: right;
+    margin: 13px 0 13px 10px;
+    line-height: 34px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.hideLogin {
+    padding: 0 13px;
+    border: 2px solid #fff;
+    line-height: 30px;
+}
+.headerLoginBox {
+    float: right;
+    display: none;
+}
+.headerLoginBox > form > button {
+    background-color: #00c3e0;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    float: right;
+    line-height: 32px;
+    margin: 13px 0 13px 10px;
+    padding: 0 20px;
+    cursor: pointer;
+    height: 34px;
+    font-weight: bold;
+}
+.headerLoginBox > form > input {
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 5px;
+    color: #444;
+    height: 34px;
+    line-height: 32px;
+    margin: 13px 0 13px 10px;
+    padding: 0 12px;
+}
+.headerLoginBox > form > input[type="password"] {
+    border-radius: 5px 0 0 5px;
+}
+.headerLoginBox > form > .forgotPassword {
+    border: 2px solid #777;
+    background-color: #777;
+    border-radius: 0 5px 5px 0;
+    float: right;
+    margin: 13px 0;
+}
+.headerLoginBox > form > .forgotPassword > a {
+    color: #fff;
+    line-height: 30px;
+    padding: 0 10px;
+    display: block;
+    text-decoration: none;
+}
+.mfp-close {
+    color: #fff !important;
+    opacity: 1;
+}
+.mfp-content {
+    color: #fff;
+    width: 55% !important;
+}
+.loginError {
+    background-color: #f2dede;
+    color: #a94442;
+    font-size: 12px;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    top: 60px;
+    width: 100%;
+}
+
+/*  Section 3 Slider */
+.landingSlides {
+    overflow: hidden;
+}
+.sliderRight {
+    background-color: #eee;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    margin-top: 200px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+.sliderLeft {
+    background-color: #eee;
+    cursor: pointer;
+    float: left;
+    font-size: 30px;
+    left: 0;
+    margin-top: 200px;
+    padding: 15px;
+    position: absolute;
+}
+.promoLinkButton {
+    width: 300px !important;
+    background: #33c3e2 !important; /* Old browsers */
+    background: -moz-linear-gradient(top,  #33c3e2 0%, #33b8dd 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #33c3e2 0%,#33b8dd 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #33c3e2 0%,#33b8dd 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33c3e2', endColorstr='#33b8dd',GradientType=0 ) !important; /* IE6-9 */
+    border-color: #25b5d4 !important;
+}
+
+@media all and (max-width: 1080px) {
+    .headerLoginBox {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 60px;
+        background-color: #222;
+        padding: 10px 5%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        box-shadow: 0 4px 3px -5px #000;
+    }
+    .headerDark {
+        background-color: #222;
+    }
+    .headerLoginBox > form > input {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 5px 0;
+        width: 100%;
+        height: 40px;
+    }
+    .headerLoginBox > form > button {
+        width: 100%;
+        height: 45px;
+        margin: 5px 0 5px 10px;
+        text-transform: uppercase;
+    }
+    .headerLoginBox > form > .forgotPassword {
+        background-color: #222;
+        border: medium none;
+        border-radius: 5px;
+        float: left;
+        margin: 10px 0 5px;
+    }
+    .mfp-content {
+        width: 90% !important;
+    }
+    .loginError {
+        top: 280px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .slideNum img {
+        width: 100%;
+    }
+    .sliderRight {
+        margin-top: 100px;
+        position: relative;
+    }
+    .sliderLeft {
+        margin-top: 100px;
+        position: relative;
+    }
+    .promoLinkButton {
+        width: 100% !important;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .mainMenu {
+        display: none;
+    }
+    .headerRegister, .headerLogin {
+        padding: 0 7px;
+    }
+    .sliderRight {
+        padding: 10px;
+        position: absolute;
+    }
+    .sliderLeft {
+        padding: 10px;
+        position: absolute;
+    }
+}
+.registration-input-correct {
+    background: #fff url("/img/icons/circle-green-48.png") no-repeat scroll right 14px center / 15px 15px;
+}
+.registration-input-incorrect {
+    background: #fff url("/img/icons/circle-red-48.png") no-repeat scroll right 14px center / 15px 15px;
+}

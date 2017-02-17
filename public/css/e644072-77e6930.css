@@ -1,0 +1,586 @@
+header {
+    background: transparent;
+    z-index: 999;
+}
+.banner {
+    padding: 300px 0 300px;
+    background: url(/images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bannerTitle, .bannerSignUpForm {
+    color: #fff;
+    float: left;
+    width: 65%;
+}
+.bannerSignUpForm {
+    width: 35%;
+}
+.bannerTitle > h1 {
+    font-size: 30px;
+    padding: 0 110px 10px 0;
+    margin: 0;
+    line-height: 34px;
+}
+.bannerTitle > h2 {
+    color: #ccc;
+    font-size: 17px;
+    margin: 0;
+    padding: 0 110px 20px 0;
+    font-weight: normal;
+    line-height: 18px;
+}
+.bannerButtons div {
+    border: 2px solid #fff;
+    border-radius: 21px;
+    cursor: pointer;
+    float: left;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 9px 27px 9px 10px;
+}
+.bannerButtons > div > img {
+    padding-right: 17px;
+    vertical-align: middle;
+    width: 17px;
+}
+.watchVideoButton {
+    background-color: #00c3e0;
+    border-color: #00c3e0 !important;
+}
+
+/* Register Form */
+.inSignUpForm {
+    width: 100%;
+}
+.inSignUpForm > input {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 14px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+}
+.inSignUpForm > button, .sectionList-4 > button {
+    background-color: #29c87c;
+    border: 1px solid #29c87c;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 7px 0;
+    padding: 12px;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+}
+.termsText {
+    font-size: 11px;
+    color: #ccc;
+}
+.termsText a {
+    color: #fff;
+    text-decoration: none;
+}
+.sep {
+    float: left;
+    width: 50%;
+}
+.socialLogin > .sep > div {
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    float: left;
+    font-weight: 600;
+    padding: 11px 0;
+    width: 100%;
+    margin-bottom: 7px;
+    background-color: #4099ff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.socialLogin > .sep > div > img {
+    padding-right: 10px;
+    vertical-align: middle;
+    width: 15px;
+}
+.orLogin {
+    width:1px;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 11px;
+    color: #fff;
+}
+hr {
+    border: 0 none;
+    height: 1px;
+    background-color: #ccc;
+}
+.fbSocialLogin {
+    background-color: #254ea3 !important;
+    border-radius: 0 5px 5px 0 !important;
+}
+.featured {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+.featured ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    list-style: none;
+}
+.featured ul li:first-child {
+    color: #ccc;
+    font-size: 12px;
+    padding: 22px 0 0;
+    width: 16%;
+}
+.featured ul li {
+    float: left;
+    text-align: center;
+    width: 14%;
+}
+.featured ul li img {
+    width: 90px;
+    margin-top: 5px;
+}
+.section-1 {
+    overflow: hidden;
+    padding: 130px 0;
+    background-color: #fbfbfb;
+    display: none;
+}
+.sectionTitle > h1 {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+}
+.sectionTitle > h2 {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 10px auto 70px;
+    max-width: 500px;
+    text-align: center;
+}
+.sectionList {
+    overflow: hidden;
+}
+.sectionList > ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.sectionList li {
+    float: left;
+    text-align: center;
+    width: 33.333%;
+    list-style: none;
+}
+.landingCirlceBlue {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.landingCirlceP {
+    color: #888;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.landingCirlceP h3 {
+    color: #444;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.section-2 {
+    overflow: hidden;
+    padding: 130px 0;
+    background-color: #00c3e0;
+}
+.section-2 h1, .section-2 h2 {
+    color: #fff;
+}
+.section-2 h2 {
+    opacity: 0.9;
+}
+.sectionList-2 {
+    overflow: hidden;
+}
+.sectionList-2 > ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+}
+.rightPeoplePicture > img {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+.rightPeopleUsername {
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+}
+.rightPeopleDetails {
+    background: #fff;
+    border-radius: 3px;
+    margin: 5px 58px 0;
+    position: relative;
+}
+.rightPeopleDetails:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.landingRightPeople li {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.rightPeopleDetailsRow {
+    overflow: hidden;
+    color: #00adca;
+}
+.rightPeopleDetailsRow > ul {
+    padding: 0;
+}
+.rightPeopleDetailsRow li {
+    line-height: 35px;
+    padding: 0 0 0 15px;
+    text-align: left !important;
+    width: 40% !important;
+    list-style: none;
+}
+.rightPeopleDetailsRow li:last-child {
+    color: #777;
+    padding: 0 15px 0 0;
+    text-align: right !important;
+    float: right !important;
+}
+
+.section-3 {
+    overflow: hidden;
+    padding: 100px 0;
+    background-color: #fbfbfb;
+}
+.sectionTitle-3 {
+    float: left;
+    width: 50%;
+}
+.sectionList-3 {
+    float: right;
+    overflow: hidden;
+    text-align: right;
+    width: 50%;
+}
+.sectionList-3 > ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+}
+.sectionTitle-3 > h1 {
+    font-size: 28px;
+    margin: 35px 0 0;
+    text-align: left;
+}
+.sectionTitle-3 > h2 {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 10px auto 40px;
+    text-align: left;
+}
+.section-4 {
+    background-color: #eee;
+    overflow: hidden;
+    padding: 50px 0;
+    text-align: center;
+}
+.sectionTitle-4 > h1 {
+    font-size: 30px;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 34px;
+}
+.sectionTitle-4 > h2 {
+    color: #888;
+    font-size: 17px;
+    margin: 0;
+    padding: 0 0 30px;
+    font-weight: normal;
+    line-height: 18px;
+}
+.sectionList-4 > button {
+    width: 50%;
+    margin: 0 auto;
+}
+.laptopProfileImg {
+    width: 255px;
+}
+footer {
+    background-color: #444;
+    overflow: hidden;
+}
+.footerMenu {
+    float: left;
+    width: 33.33%;
+}
+.footerMenu ul {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0;
+    text-transform: capitalize;
+}
+.footerMenu li {
+    list-style: none;
+    margin-top: 3px;
+}
+.footerMenu li:first-child {
+    margin-top: 10px;
+}
+.footerMenu li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: normal;
+}
+.aboutBetfect {
+    background-color: #555;
+    color: #999;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 15px 0;
+}
+.rightsReserved {
+    background-color: #333;
+    padding: 10px 0;
+    color: #ccc;
+}
+.footerRights {
+    float: left;
+    line-height: 24px;
+}
+.underAge {
+    line-height: 24px;
+}
+.footerSocial {
+    float: right;
+}
+.underAge > span {
+    border: 2px solid red;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 10px;
+    padding: 6px;
+}
+.footerSocial > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerSocial li {
+    float: left;
+    margin-left: 10px;
+    height: 24px;
+}
+.footerSocial img {
+    height: 24px;
+    opacity: 0.60;
+}
+.footerSocial img:hover {
+    opacity: 1.00;
+}
+
+/***** RESPONSIVE *****/
+
+@media all and (max-width: 1300px) {
+
+    .mainBody {
+        width: 90%;
+    }
+    .banner {
+        padding: 200px 0 140px;
+    }
+    .rightPeopleDetails {
+        background: #fff;
+        border-radius: 3px;
+        margin: 15px 20px 0;
+        position: relative;
+    }
+    .bannerTitle, .bannerSignUpForm {
+        color: #fff;
+        float: left;
+        width: 55%;
+    }
+    .bannerSignUpForm {
+        width: 45%;
+    }
+    .bannerTitle > h1 {
+        padding: 0 80px 10px 0;
+    }
+    .bannerTitle > h2 {
+        padding: 0 80px 20px 0;
+    }
+    .laptopProfileImg {
+        width: 80%;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+    .bannerTitle, .bannerSignUpForm, .bannerSignUpForm {
+        width: 100%;
+    }
+    .bannerTitle > h1 {
+        padding: 0;
+        font-size: 22px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .bannerTitle > h2 {
+        padding: 5px 0;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+    }
+    .bannerButtons {
+        margin: 20px 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    .bannerButtons div {
+        display: inline-block;
+        float: none;
+        margin-right: 5px;
+        padding: 9px 15px 9px 10px;
+    }
+    .bannerButtons > div > img {
+        padding-right: 10px;
+    }
+    .bannerSignUpForm {
+        padding: 80px 0 0;
+    }
+    .banner {
+        padding: 150px 0 80px;
+    }
+    .watchVideoButton {
+        margin-right: 0 !important;
+    }
+    .socialLogin > .sep > div {
+        font-size: 11px;
+    }
+    .sectionList li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sectionList li:last-child {
+        margin-bottom: 0;
+    }
+    .connectAccountImg {
+        width: 270px !important;
+    }
+    .featured ul li img {
+        width: 50px;
+    }
+    .featured ul li {
+        width: 16.666%;
+    }
+    .featured ul li:first-child {
+        display: none;
+    }
+    .section-1, .section-2, .section-3, .section-4 {
+        padding: 50px 0;
+    }
+    .sectionTitle > h1, .sectionTitle-3 > h1, .sectionTitle-4 > h1 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .sectionTitle > h2, .sectionTitle-3 > h2, .sectionTitle-4 > h2 {
+        font-size: 13px;
+        line-height: 15px;
+        margin: 10px auto 40px;
+    }
+    .termsText {
+        font-size: 9px;
+        color: #ccc;
+    }
+    .landingRightPeople li {
+        width: 100%;
+    }
+    .rightPeopleDetails {
+        margin: 30px 0;
+    }
+    .sectionTitle-3, .sectionList-3 {
+        width: 100%;
+        text-align: center;
+    }
+    .sectionTitle-3 > h1, .sectionTitle-3 > h2 {
+        text-align: center !important;
+    }
+    .sectionTitle-3 > h1 {
+        margin: 0;
+    }
+    .sectionList-4 > button {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sectionTitle-4 > h2 {
+        padding: 0;
+        margin: -8px 0 15px;
+    }
+    .footerMenu {
+        width: 100%;
+    }
+    .footerMenu li {
+        margin-top: -3px;
+    }
+    .footerMenu ul {
+        margin: 5px 0;
+    }
+    .longMenu {
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .footerSocial {
+        display: none;
+    }
+    .footerRights {
+        width: 100%;
+        text-align: center;
+    }
+}
