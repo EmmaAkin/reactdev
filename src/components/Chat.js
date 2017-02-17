@@ -59,10 +59,34 @@ class Chat extends Component {
       this.getPosts();
     }
 
+    handleAddPost(post){
+      //console.log(post);
+      let posts = this.state.posts;
+      $.ajax({
+        type     : 'POST',
+        beforeSend: function (xhr) {
+          xhr.setRequestHeader ("Authorization", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODczNjkxNDh9.pzxyIABZ3P4PAziuLIRYy1CkRKlR9ENXut1RH1oto-s");
+        },
+        url      : 'https://shielded-inlet-71502.herokuapp.com/api/v1/posts',
+        data     :  posts,
+        dataType : 'json',
+        success: function(data, textStatus, jqXHR)
+          {
+              //data - response from server
+              this.setState({posts:posts});
+          },
+          error: function (jqXHR, textStatus, errorThrown)
+          {
+
+          }
+      });
+
+    }
+
   render(){
     return (
         <div className="peopleSection" >
-              <QuestionForm/>
+              <QuestionForm addPost={this.handleAddPost.bind(this)}/>
               <TalkFilters/>
               <PopularTalk posts={this.state.posts} />
         </div>
